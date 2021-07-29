@@ -33,8 +33,8 @@ def upload():
     return jsonify(result)
 
 
-@app.route('/valuateprice', methods=['POST'])
-def valuate_price():
+@app.route('/evaluateprice', methods=['POST'])
+def evaluate_price():
     return jsonify(RiceQualityValidator.predict())
 
 if __name__ == '__main__':
