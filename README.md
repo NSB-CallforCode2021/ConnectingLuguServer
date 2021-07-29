@@ -32,8 +32,9 @@ To train a model for rice health check:
 Restful APIs:<br>
 Online demo url: http://47.100.80.164/<br>
 1. POST /upload<br>
-   Example: 
-   Response body:
+   Example:<br> 
+   Response body:<br>
+   
    `
     {
       "score": 80,
@@ -41,8 +42,9 @@ Online demo url: http://47.100.80.164/<br>
     }
    `
 2. POST /evaluateprice<br>
-
- Response body:
+Example:<br>
+ Response body:<br>
+ 
    `
     {
       "score": 85.5,
