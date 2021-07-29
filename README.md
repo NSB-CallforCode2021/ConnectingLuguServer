@@ -8,7 +8,7 @@ This project contains:<br>
     2. Health check model for rice: This model can check whether the rice is in disease and what is the disease.<br>
     ![image](https://user-images.githubusercontent.com/18240201/127452116-0daa06ed-7ac9-4a60-9705-8f9af06bf7ef.png)
     3. Prediction of rice quality and price (in progress): We use the mean score during rice growth to evalute the quality. 
-    We will build and traine CNN-LSTM model for rice quality evaluation in next step.
+    In next step, build and train CNN-LSTM model for rice quality evaluation 
     
 #### Requirements
 - Python 3.8.5
