@@ -6,13 +6,10 @@ Python Flask API service for ConnectingLugu
 This project contains:<br>
     1. Flask restful api service<br>
     2. Health check model for rice: This model can check whether the rice is in disease and what is the disease.<br>
-    Model Architecture:
+    ![image](https://user-images.githubusercontent.com/18240201/127452116-0daa06ed-7ac9-4a60-9705-8f9af06bf7ef.png)
     3. Prediction of rice quality and price (in progress): We use the mean score during rice growth to evalute the quality. 
     We will build and traine CNN-LSTM model for rice quality evaluation in next step.
     
-  
-  
-
 #### Requirements
 - Python 3.8.5
 - numpy 1.19.4
