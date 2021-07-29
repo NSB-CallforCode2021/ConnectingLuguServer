@@ -7,11 +7,10 @@ This project contains:<br>
     1. Flask restful api service<br>
     2. Health check model for rice: This model can check whether the rice is in disease and what is the disease.<br>
     Model Architecture:
-    
-    ![image](https://user-images.githubusercontent.com/18240201/127437702-c5dba3fe-9214-4829-9ede-e75299e749e7.png)
-    
     3. Prediction of rice quality and price (in progress): We use the mean score during rice growth to evalute the quality. 
     We will build and traine CNN-LSTM model for rice quality evaluation in next step.
+    
+  
   
 
 #### Requirements
