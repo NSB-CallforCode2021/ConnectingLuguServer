@@ -33,9 +33,9 @@ def upload():
     return jsonify(result)
 
 
-@app.route('/valuateprice', methods=['POST'])
-def valuate_price():
-    return jsonify(RiceQualityValidator.predict())
+@app.route('/evaluateprice', methods=['POST'])
+def evaluate_price():
+    return jsonify(RiceQualityValidator().predict())
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)

@@ -2,142 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d21d18f-f6cd-4f43-a88d-411c97deed99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/model/partners_recommend_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/df_combined.csv.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/df_train.csv.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/df_val.csv.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0100.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0104.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0105.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0106.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0107.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0108.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0109.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0111.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0113.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0114.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0115.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0116.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0117.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0118.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0119.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0121.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0292.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0293.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0295.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0296.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0299.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0300.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0301.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0302.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0303.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0304.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0305.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0306.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0307.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0308.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0309.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0310.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0312.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0313.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0314.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0315.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0316.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0317.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0318.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0319.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0320.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0321.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0323.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0324.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0325.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0327.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0328.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0330.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0331.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0332.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0333.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0335.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0336.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0337.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0338.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0339.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0365.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0366.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0367.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0370.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0372.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0373.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0374.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0375.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0376.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0377.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0378.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0379.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0380.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0381.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0382.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0383.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0384.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0385.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0386.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0388.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0389.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0390.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0391.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0392.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0393.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0394.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0395.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0396.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0397.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0398.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0399.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0400.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0401.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0402.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0403.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0404.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0405.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0406.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0501.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0502.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0503.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0504.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0505.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0506.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0507.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0508.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0509.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0510.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0511.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0512.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0513.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0514.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0516.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0701.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0702.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/DSC_0703.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/H_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/H_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/H_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/H_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/H_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/image_dir/H_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/leafDiseaseAnalyzer.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/rice_health_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/rice_health_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/rice_price_regression_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/rice_price_regression_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/training_log.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebServer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="486">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding>
                 <element signature="e#20#43#0" expanded="true" />
               </folding>
@@ -163,11 +30,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/partners_recommend_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state>
+              <caret selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -175,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/rice_health_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2027">
-              <caret line="459" column="21" selection-start-line="459" selection-start-column="5" selection-end-line="459" selection-end-column="21" />
+            <state relative-caret-position="1746">
+              <caret line="455" selection-start-line="455" selection-end-line="455" />
               <folding>
                 <element signature="e#258#267#0" expanded="true" />
               </folding>
@@ -187,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/rice_price_regression_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="26" />
+            <state>
+              <caret selection-end-line="10" selection-end-column="3" />
               <folding>
                 <element signature="e#415#461#0" expanded="true" />
               </folding>
@@ -214,6 +90,8 @@
         <option value="$PROJECT_DIR$/model/rice_health_model.py" />
         <option value="$PROJECT_DIR$/model/rice_price_regression_model.py" />
         <option value="$PROJECT_DIR$/WebServer.py" />
+        <option value="$PROJECT_DIR$/model/recommend_.py" />
+        <option value="$PROJECT_DIR$/model/partners_recommend_model.py" />
       </list>
     </option>
   </component>
@@ -227,8 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,20 +120,34 @@
             <path>
               <item name="TrabeAid_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="TrabeAid_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ricedata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrabeAid_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabeAid_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ricegrowthimages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrabeAid_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabeAid_Server" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1627530860917" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1627625719816" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/go/src/TesterPortal" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -343,17 +233,20 @@
       <workItem from="1627521644478" duration="67000" />
       <workItem from="1627523126422" duration="71000" />
       <workItem from="1627524846673" duration="6001000" />
+      <workItem from="1627536508521" duration="1803000" />
+      <workItem from="1627539804178" duration="3975000" />
+      <workItem from="1627613485462" duration="800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22899000" />
+    <option name="totallyTimeSpent" value="29477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17678382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18157615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -367,7 +260,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.50082374" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22101842" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -441,20 +334,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/model.h5" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/model.h5">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
+    <entry file="file://$PROJECT_DIR$/WebServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#20#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/rice_health_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2027">
-          <caret line="459" column="21" selection-start-line="459" selection-start-column="5" selection-end-line="459" selection-end-column="21" />
+        <state relative-caret-position="1746">
+          <caret line="455" selection-start-line="455" selection-end-line="455" />
           <folding>
             <element signature="e#258#267#0" expanded="true" />
           </folding>
@@ -463,21 +364,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/rice_price_regression_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="26" />
+        <state>
+          <caret selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="e#415#461#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebServer.py">
+    <entry file="file://$PROJECT_DIR$/model/partners_recommend_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#20#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
