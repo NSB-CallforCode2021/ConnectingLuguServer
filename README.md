@@ -1,31 +1,51 @@
-# Python_API
+# Connecting Lugu Server program
 
-#### 介绍
-Python Flask API service
+#### Introduction
+Python Flask API service for ConnectingLugu
 
-#### 软件架构
-软件架构说明
+This project contains:<br>
+    1. Flask restful api service<br>
+    2. Health check model for rice: This model can check whether the rice is in disease and what is the disease.<br>
+    ![image](https://user-images.githubusercontent.com/18240201/127452116-0daa06ed-7ac9-4a60-9705-8f9af06bf7ef.png)
+    3. Prediction of rice quality and price (in progress): We use the mean score during rice growth to evalute the quality. 
+    In next step, build and train CNN-LSTM model for rice quality evaluation 
+    
+#### Requirements
+- Python 3.8.5
+- numpy 1.19.4
+- Flask 2.0.1
+- tensorflow 2.5.0
+- Werkzeug 2.0.1
+- scikit-learn 0.24.1
+- pandas 1.2.4
 
+#### Usage
+First, install prerequisites with: `$pip install -r requirements.txt`<br>
 
-#### 安装教程
+To train a model for rice health check:
+    `$python rice_health_model.py`
+    
+Restful APIs:<br>
+Online demo url: http://47.100.80.164/<br>
+1. POST /upload<br>
+   Example:<br> 
+   Response body:<br>
+   
+   `
+    {
+      "score": 80,
+      "disease": "brown spot"
+    }
+   `
+2. POST /evaluateprice<br>
+Example:<br>
+ Response body:<br>
+ 
+   `
+    {
+      "score": 85.5,
+      "level": "B"
+    }
+   `
 
-1.  Anaconda环境安装
-    本项目使用Anaconda来管理Python包，具体参考 https://www.jb51.net/article/192232.htm
-    安装
-2.  Python的开发编辑器使用 Pycharm,下载地址 https://www.jetbrains.com/pycharm/
-3.  运行
-    在Pycharm里运行WebServer.py, 浏览器访问 http://127.0.0.1:5000/ 返回"flask restful API HeartBeat OK"说明环境准备完成
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
 

@@ -37,6 +37,7 @@ def upload():
 def evaluate_price():
     return jsonify(RiceQualityValidator().predict())
 
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
     # app.run(host='192.168.3.13')
